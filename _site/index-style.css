@@ -1,0 +1,35 @@
+body {
+    margin: auto;
+    font-family: "Open Sans", Arial, sans-serif; /* Good default for clarity and readability */
+    font-size: 16px; /* Base font size */
+    line-height: 1.5; /* Comfortable line spacing for readability */
+    color: #222; /* Dark gray for text */
+    width:60%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+h1 {
+  font-size: 2rem; /* Adjust as needed */
+  margin-bottom: 1rem; /* Space below header */
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+p {
+    margin-bottom: 1.5rem; /* Space between paragraphs */
+  }
+  strong {
+    font-weight: bold; /* Emphasis for important text */
+  }
+/* Use margins and padding to create visual breathing room */
+element {
+    margin: 1rem; /* Adjust value as needed */
+    padding: 1rem;
+  }      
+  @media (max-width: 768px) {
+    element {
+      margin: 0.5rem; /* Reduce spacing on smaller devices */
+    }
+  }

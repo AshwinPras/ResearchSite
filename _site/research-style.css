@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+}
+.toc {
+    width: 25%; /* Adjust the width as per your design */
+    padding: 10px;
+    box-sizing: border-box;
+    position: fixed; /* This will make the TOC stick to the left while scrolling */
+    height: 95vh; /* This will make the TOC take the full height of the viewport */
+    overflow-y: auto; /* Add scrollbar if the TOC content overflows the viewport height */
+}
+.body {
+    width: 60%; /* Adjust the width as per your design */
+    font-family: "Open Sans", Arial, sans-serif;
+    padding: 40px;
+    box-sizing: border-box;
+    margin-left: 25%; /* Ensure main content doesn't overlap with the TOC */
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.5;
+}
